@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "./node_modules/next/dist/bin/next dev",
     "build": "./node_modules/next/dist/bin/next build",
-    "start": "./node_modules/next/dist/bin/next start"
+    "start": "./node_modules/next/dist/bin/next build && ./node_modules/next/dist/bin/next start"
   },
   "dependencies": {
     "autoprefixer": "10.2.5",
