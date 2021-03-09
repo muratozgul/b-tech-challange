@@ -2,6 +2,10 @@
   "name": "bumble-tech-challange",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=12.13.0",
+    "npm": ">=6.12.0"
+  },
   "scripts": {
     "dev": "./node_modules/next/dist/bin/next dev",
     "build": "./node_modules/next/dist/bin/next build",
